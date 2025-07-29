@@ -11,9 +11,20 @@ public class Main {
 
         Ninja Sasuke = new Ninja();
 
+        String chamandoMetodo = Sasuke.euSouUmNinja();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.aldeia = "Aldeia da Folha";
         Sasuke.idade = 18;
+        System.out.println(Sasuke.nome);
+        System.out.println(Sasuke.aldeia);
+        System.out.println(Sasuke.idade);
+        Sasuke.SharinganAtivado();
+        System.out.println(chamandoMetodo);
+
+        int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(70);
+        System.out.println("Você tem " + Sasuke.idade + " então falta no minimo: " + quantoTempoFalta + " Anos para você se tornar Hokage");
+
+
 
         Ninja Sakura = new Ninja();
 
