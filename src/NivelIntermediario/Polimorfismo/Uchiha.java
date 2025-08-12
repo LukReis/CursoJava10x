@@ -1,17 +1,19 @@
 package NivelIntermediario.Polimorfismo;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Uchiha extends Ninja{
 
+    public Uchiha() {
+        super();
+    }
 
-@Override
+    public Uchiha(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
+
+    @Override
     public void habilidadeEspecial() {
         System.out.println("Meu nome é: " + nome + " e esse é meu ataque Uchiha, um ataque de fogo!");
     }
 
-    public void estrategiaDeBatalhaNinja() {
-        System.out.println("Essa é a minha estrategia de batalha! ");
-    }
 
 }
