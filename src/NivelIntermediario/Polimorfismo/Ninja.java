@@ -1,6 +1,6 @@
 package NivelIntermediario.Polimorfismo;
 
-public class Ninja {
+public abstract class Ninja implements EstrategiaDeBatalha {
 
     String nome;
     int aldeia;
@@ -10,5 +10,8 @@ public class Ninja {
         System.out.println("Meu nome é: " + nome + " e esse é meu ataque especial!");
     }
 
-
+    @Override
+    public void estrategiaDeBatalhaNinja() {
+        System.out.println("Meu nome é: " + nome + " Essa é a minha estrategia de Combate!");
+    }
 }
