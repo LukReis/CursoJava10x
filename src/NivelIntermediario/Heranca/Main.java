@@ -23,6 +23,8 @@ public class Main {
         uzumaki.nome = "Naruto Uzumaki";
         uzumaki.aldeia = "Aldeia da Folha";
         uzumaki.idade = 18;
+        uzumaki.hokageAtivo();
+
 
     }
 }
