@@ -36,4 +36,7 @@ public class Uchiha extends Ninja{
     }
 
 
+    public void metodoProvisorio() {
+        System.out.println("Teste na classe Uchiha");
+    }
 }
